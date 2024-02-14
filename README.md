@@ -15,9 +15,11 @@
     - 단순 연결 리스트(선형리스트의 불편함을 개선하고자) 
     - 원형 연결 리스트 : 마지막 노드가 첫 노드와 연결 
     - 스택 : Last In First Out = LIPO 후입선출 
+        ![스택](https://bluegalaxy.info/codewalk/wp-content/uploads/2018/08/stack.jpg)
         - pop : list.pop()
         - push : list.append() 와 동일 
     - 큐 : First In First Out = FIFO 선입선출
+        ![Queue](https://media.geeksforgeeks.org/wp-content/uploads/20220816162225/Queue.png)
 
 ## 4일차
     - 트리(이진)
