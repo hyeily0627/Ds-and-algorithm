@@ -24,9 +24,24 @@
 
         ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/queue.png)
 
+
+
 ## 4일차
-    - 트리(이진)
-    - 그래프 
+- 큐 일반구현
+    ```python
+    def isQueueFull() :
+    global SIZE, rear
+    if rear == (SIZE - 1) : 
+        return True
+    else :
+        return False 
+    ```
+    - ❗deQueue 사용시 큐의 앞쪽은 비워지지만 다시 사용하지 않는 문제 발생
+        
+    ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/queue2.png)
+
+- 트리(이진)
+- 그래프 
 
 ## 5일차
 
