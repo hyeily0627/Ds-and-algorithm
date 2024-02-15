@@ -22,7 +22,7 @@
         - push : list.append() 와 동일 
     - 큐 : First In First Out = FIFO 선입선출
 
-        ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/Images/queue.png)
+        ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/queue.png)
 
 ## 4일차
     - 트리(이진)
