@@ -25,7 +25,6 @@
         ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/queue.png)
 
 
-
 ## 4일차
 - 큐 일반구현
     ```python
@@ -39,6 +38,24 @@
     - ❗deQueue 사용시 큐의 앞쪽은 비워지지만 다시 사용하지 않는 문제 발생
         
     ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/queue2.png)
+
+    ```python
+    def isQueueFull() :
+    global SIZE, queue, front, rear
+    if rear == (SIZE - 1) : # 큐가 아직 빈 상태 
+        return False
+    elif rear == (SIZE - 1) and front == -1 : # 큐가 꽉찬 상태 
+        return True
+    else : # 큐 앞쪽이 비어있는 상태, rear가 끝까지 간 상태
+        while front != -1 : # 완전히 앞으로 당기기 -> front가 -1이 될 때까지
+            for i in range(front + 1, SIZE) :
+                queue[i - 1] = queue[i] # front에다가 front + 1의 값 할당
+                queue[i] = None
+            front -= 1 
+            rear -= 1 
+        return False
+    ```
+    ![Queue](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/queue3.png)
 
 - 트리(이진)
 - 그래프 
