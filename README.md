@@ -66,7 +66,9 @@
     - 원형 큐(circular Queue) - 교재 258p~
         - 원형 큐에서는 'rear|front + 1 % 큐 크기' 가 핵심
     - 트리(이진) - 교재 276p
+
         ![이진트리](https://kahee.github.io//assets/post_img/tree3.png)
+        
         - 전위 순회(preorder traversal) : 루트 -> 왼쪽 -> 오른쪽 
         - 중위 순회(inorder traversal) :  왼쪽 -> 루트 -> 오른쪽 
         - 후위 순회(postorder traversal) :  왼쪽 -> 오른쪽 -> 루트 
