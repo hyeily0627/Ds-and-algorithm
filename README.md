@@ -76,9 +76,15 @@
 ## 5일차
 - 파이썬 자료구조/알고리즘
     - 그래프
+    
+    ![graph](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/graph2.png)
+
+## 6일차(24.02.19)
+- 파이썬 자료구조/ 알고리즘
     - 재귀호출
     - 정렬
 
-## 6일차
-
 ## 7일차
+- 파이썬 자료구조/ 알고리즘
+    - 검색
+- 코딩테스트 
