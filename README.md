@@ -86,21 +86,38 @@
     ![Recursion기본예제](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/recursion.gif)
 
     - 정렬
-        1. 선택 정렬
+        1. 선택 정렬(Selection Sort) : 주어진 자료들 중에 현재 위치에 맞는 자료를 찾아 선택하여 위치를 교환하는 정렬 알고리즘
+            - 첫 번째는 주어진 배열에서 최소값을 찾는다. 두 번째는 최소값을 맨 앞의 값과 바꾼다. 세 번째는 바꿔준 맨 앞 값을 제외한 나머지 원소를 동일한 방법으로 바꿔준다.
+            - O(n²)의 시간복잡도를 가지고 있다.(성능이 좋지 않다.)
 
         ![선택정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort3.gif)  
 
-        2. 삽입 정렬 
+        2. 삽입 정렬(Insertion Sort) : 주어진 자료의 모든 요소를 앞에서부터 차례대로 정렬된 자료 부분과 비교하여 자신의 위치를 찾아 삽입하는 정렬
+            - O(n)의 시간복잡도를 가지지만, 최악의 경우 O(n²)시간복잡도를 가진다.
 
         ![삽입정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort2.gif)  
 
-        3. 버블 정렬
+        3. 버블 정렬(Bubble Sort)
+            - 0번째 원소와 1번째 원소를 비교 후 정렬
+            - 1번째 원소와 2번째 원소를 비교 후 정렬 …
+            - n-1번째 원소와 n번째 원소를 비교 후 정렬
+            - 시간복잡도 : O(n²) 
+            - 단, 정렬이 어느정도 되어 있는 데이터라면 연산수가 급격하게 줄어듦
 
         ![버블정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort1.gif)
 
-        4. 퀵 정렬
+        4. 퀵 정렬(Quick Sort)
+            - 입력된 자료 리스트에서 하나의 원소를 고른다. 이 원소를 피벗이라고 부른다.
+            - 피벗을 기준으로 리스트를 둘로 분할한다.
+            - 피벗을 기준으로 피벗보다 작은 원소들은 모두 피벗의 왼쪽으로 옮긴다
+            - 피벗을 기준으로 피벗보다 큰 원소들은 모두 피벗의 오른쪽으로 옮긴다
+            - 시간복잡도 O(n×log n), 최악의 경우 O(n²)
 
-        ![퀵정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort4.gif)    
+        ![퀵정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort4.gif) 
+
+        - 시간복잡도 정리 
+
+        ![시간복잡도](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort10.png)   
 
 ## 7일차
 - 파이썬 자료구조/ 알고리즘
