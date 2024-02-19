@@ -83,24 +83,24 @@
 - 파이썬 자료구조/ 알고리즘
     - 재귀호출 : 자신을 다시 호출 하는 것 
 
-    ![Recursion기본예제](https://raw.githubusercontent.com/hyeily0627/Basic-python-2024/main/images/recursion.gif)
+    ![Recursion기본예제](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/recursion.gif)
 
     - 정렬
         1. 선택 정렬
 
-        ![선택정렬](https://raw.githubusercontent.com/hyeily0627/Basic-python-2024/main/images/sort3)  
+        ![선택정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort3)  
 
         2. 삽입 정렬 
 
-        ![삽입정렬](https://raw.githubusercontent.com/hyeily0627/Basic-python-2024/main/images/sort2)  
+        ![삽입정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort2)  
 
         3. 버블 정렬
 
-        ![버블정렬](https://raw.githubusercontent.com/hyeily0627/Basic-python-2024/main/images/sort1)
+        ![버블정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort1)
 
         4. 퀵 정렬
-        
-        ![퀵정렬](https://raw.githubusercontent.com/hyeily0627/Basic-python-2024/main/images/sort4)    
+
+        ![퀵정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort4)    
 
 ## 7일차
 - 파이썬 자료구조/ 알고리즘
