@@ -88,19 +88,19 @@
     - 정렬
         1. 선택 정렬
 
-        ![선택정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort3)  
+        ![선택정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort3.gif)  
 
         2. 삽입 정렬 
 
-        ![삽입정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort2)  
+        ![삽입정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort2.gif)  
 
         3. 버블 정렬
 
-        ![버블정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort1)
+        ![버블정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort1.gif)
 
         4. 퀵 정렬
 
-        ![퀵정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort4)    
+        ![퀵정렬](https://raw.githubusercontent.com/hyeily0627/ds-and-algorithm/main/images/sort4.gif)    
 
 ## 7일차
 - 파이썬 자료구조/ 알고리즘
